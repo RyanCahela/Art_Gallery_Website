@@ -1,0 +1,4 @@
+/* FOOTER */
+:where(footer ul) {
+  list-style: none;
+}
