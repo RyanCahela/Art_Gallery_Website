@@ -2,7 +2,7 @@
 
 ### todo
 - [*] outline html (red circles on figma)
-- [] build v1 html
+- [*] build v1 html
 - [] add media to html (images, fonts, svg)
 - [] create css custom props
 - [] add colors to html
