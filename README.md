@@ -1,7 +1,7 @@
 # Art_Gallery_Website
 
 ### todo
-- [] outline html (red circles on figma)
+- [*] outline html (red circles on figma)
 - [] build v1 html
 - [] add media to html (images, fonts, svg)
 - [] create css custom props
