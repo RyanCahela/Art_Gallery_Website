@@ -2,3 +2,7 @@
   --ff-display: "Big Shoulders Display", cursive;
   --ff-body: "Outfit", sans-serif;
 }
+
+body {
+  background-color: #333;
+}
