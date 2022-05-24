@@ -1,8 +1,104 @@
 :root {
+  /* Colors */
+  --light-orange: 24deg 49% 84%;
+  --black: 0deg 0% 8%;
+  --dark-gray: 0deg 0% 27%;
+  --white: 0deg 0% 100%;
+
+  /* Color Intentions */
+  --clr-accent: var(--light-orange);
+  --clr-dark-100: var(--black);
+  --clr-dark-200: var(--dark-gray);
+  --clr-white: var(--white);
+
+  /* Fonts */
   --ff-display: "Big Shoulders Display", cursive;
   --ff-body: "Outfit", sans-serif;
+
+  --fs-100: 1rem; /* 16px */
+  --fs-200: 1.125rem; /* 18px */
+  --fs-300: 1.25rem; /* 20px */
+  --fs-400: 1.375rem; /* 22px */
+  --fs-600: 2.25rem; /* 36px */
+  --fs-700: 3.75rem; /* 60px */
+  --fs-800: 4.375rem; /* 70px */
+  --fs-900: 6rem; /* 96px */
 }
 
 body {
   background-color: #333; /* temporary */
+}
+
+/* Fonts */
+.ff-display {
+  font-family: var(--ff-display);
+  font-weight: 900;
+}
+
+.ff-body {
+  font-family: var(--ff-body);
+  font-weight: 300;
+}
+
+.fc-body-sm {
+  color: var(--clr-dark-100);
+}
+
+.fc-body-md {
+  color: var(--clr-dark-200);
+}
+
+.fc-title {
+  color: var(--clr-dark-100);
+}
+
+.fs-body-sm {
+  font-size: var(--fs-200);
+  line-height: 1.75rem;
+}
+
+.fs-body-md {
+  font-size: var(--fs-400);
+  line-height: 2rem;
+}
+
+.fs-title-sm {
+  font-size: var(--fs-600);
+  line-height: var(--fs-600);
+}
+
+.fs-title-md {
+  font-size: var(--fs-700);
+  line-height: var(--fs-700);
+}
+
+.fs-title-lg {
+  font-size: var(--fs-800);
+  line-height: var(--fs-800);
+}
+
+.fs-title-xl {
+  font-size: var(--fs-900);
+  line-height: 5.5rem;
+}
+
+.fs-button {
+  font-weight: 800;
+  font-size: var(--fs-300);
+  line-height: 1.5rem;
+  letter-spacing: 0.2272725rem; /* 3.63636px */
+}
+
+/* background colors */
+
+.bg-accent {
+  background-color: var(--clr-accent);
+}
+
+.bg-dark-100 {
+  background-color: var(--clr-dark-100);
+}
+
+.bg-btn-hover:hover {
+  background-color: var(--clr-accent);
 }
