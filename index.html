@@ -15,11 +15,12 @@
     <link rel="stylesheet" href="style.css" />
     <title>Modern Art Gallery</title>
   </head>
-  <body>
+  <body class="ff-body">
     <!-- Hero Header-->
-    <header>
-      <h1>Modern Art Gallery</h1>
+    <header class="page-padding">
+      <h1 class="fs-title-xl ff-display">Modern Art Gallery</h1>
       <img
+        class="w-100"
         srcset="
           assets/desktop/image-hero.jpg     540w,
           assets/desktop/image-hero@2x.jpg 1080w,
@@ -29,22 +30,32 @@
           assets/mobile/image-hero@2x.jpg   750w
         "
       />
-      <p>
+      <p class="fs-body-md">
         The arts in the collection of the Modern Art Gallery all started from a
         spark of inspiration. Will these pieces inspire you? Visit us and find
         out.
       </p>
       <nav>
-        <a href="/location.html">
-          <span>Our Location</span>
-          <img src="assets/icon-arrow-right.svg" />
+        <a class="btn" href="/location.html">
+          <span class="btn__text">Our Location</span>
+          <span class="btn__icon-container">
+            <svg
+              class="btn__icon"
+              width="10"
+              height="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path stroke="currentColor" fill="none" d="m1 0 8 12-8 12" />
+            </svg>
+          </span>
+          </span>
         </a>
       </nav>
     </header>
     <!-- Your Day Section -->
-    <section>
+    <section class="your-day-section page-padding">
       <h2>Your Day at the Gallery</h2>
-      <p>
+      <p class="fs-body-md">
         Wander through our distinct collections and find new insights about our
         artists. Dive into the details of their creative process.
       </p>
@@ -80,16 +91,16 @@
       />
       <div>
         <h3>Come & Be Inspired</h3>
-        <p>
+        <p class="fs-body-md">
           We're excited to welcome you to our gallery and see how our
           collections influence you.
         </p>
       </div>
     </section>
 
-    <footer>
+    <footer class="page-padding">
       <h2>Modern Art Gallery</h2>
-      <p>
+      <p class="fs-body-sm">
         The Modern Art Gallery is free to all visitors and open seven days a
         week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
       </p>
