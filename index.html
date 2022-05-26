@@ -17,10 +17,10 @@
   </head>
   <body class="ff-body">
     <!-- Hero Header-->
-    <header>
+    <header class="flex-col">
       <h1 class="fs-title-xl ff-display page-padding">Modern Art Gallery</h1>
       <img
-        class="w-100"
+        class="w-100 hero-image"
         srcset="
           assets/desktop/image-hero.jpg     540w,
           assets/desktop/image-hero@2x.jpg 1080w,
@@ -53,8 +53,8 @@
       </nav>
     </header>
     <!-- Your Day Section -->
-    <section class="your-day-section page-padding">
-      <h2>Your Day at the Gallery</h2>
+    <section class="gallery-section page-padding grid">
+      <h2 class="ff-display fs-title-md">Your Day at the Gallery</h2>
       <p class="fs-body-md">
         Wander through our distinct collections and find new insights about our
         artists. Dive into the details of their creative process.
@@ -89,8 +89,8 @@
           assets/mobile/image-grid-3@2x.jpg   686w
         "
       />
-      <div>
-        <h3>Come & Be Inspired</h3>
+      <div class="bg-dark-100 grid-card">
+        <h3 class="ff-display fs-title-md">Come & Be Inspired</h3>
         <p class="fs-body-md">
           We're excited to welcome you to our gallery and see how our
           collections influence you.
@@ -98,13 +98,13 @@
       </div>
     </section>
 
-    <footer class="page-padding">
+    <footer class="footer bg-dark-100">
       <h2>Modern Art Gallery</h2>
       <p class="fs-body-sm">
         The Modern Art Gallery is free to all visitors and open seven days a
         week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
       </p>
-      <ul class>
+      <ul class="flex">
         <li>
           <a href="">
             <img src="assets/icon-facebook.svg" alt="facebook icon" />
