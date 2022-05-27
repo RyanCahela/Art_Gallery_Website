@@ -47,6 +47,14 @@
   color: var(--clr-dark-100);
 }
 
+.fc-dark-100 {
+  color: var(--clr-dark-100);
+}
+
+.fc-light-900 {
+  color: var(--clr-white);
+}
+
 .fc-body-md {
   color: var(--clr-dark-200);
 }
